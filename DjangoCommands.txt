@@ -1,0 +1,52 @@
+cd C:\Users\
+cd .\CETECOM\
+cd .\Downloads\
+cd .\desarrollo\
+
+ls
+
+python --version ó py --version
+
+python -m venv myvenv
+
+ls
+
+cd myvenv
+ls
+
+cd Scripts
+
+./activate
+
+Si da error el ./activate:
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+cd ..
+cd ..
+
+python -m pip install --upgrade pip
+
+pip install -r req.txt  
+
+
+##########################################
+
+
+Creamos un nuevo proyecto:
+
+django-admin startproject instituto .
+
+ls
+
+python manage.py runserver     
+
+
+Ir a la siguiente url en el navegador-> http://127.0.0.1:8000
+
+
+Para detener, precionar la tecla CTRL + C
+
+
+##########################################
+
